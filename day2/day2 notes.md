@@ -15,3 +15,13 @@
 
 3.遇到的作业难点  
 输出如下三角形图形：  
+经过参考后得到答案：  
+```
+row = int(input('lines number '))
+for i in range(row):
+    for j in range(row - i - 1):
+        print(' ', end='')
+    for j in range(2 * i - 1):
+        print('*', end='')
+    print('\n')
+```
